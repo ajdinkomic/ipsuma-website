@@ -1,0 +1,1119 @@
+/* GENERALNI CSS */
+
+@font-face {
+        src: url(../fonts/Montserrat-Regular.ttf);
+        font-family: 'Montserrat';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-Light.ttf);
+        font-family: 'Montserrat Light';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-ExtraLight.ttf);
+        font-family: 'Montserrat Extra Light';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-Bold.ttf);
+        font-family: 'Montserrat Bold';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-Medium.ttf);
+        font-family: 'Montserrat Medium';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-SemiBold.ttf);
+        font-family: 'Montserrat Semi Bold';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-Black.ttf);
+        font-family: 'Montserrat Black';
+}
+
+@font-face {
+        src: url(../fonts/Montserrat-ExtraBold.ttf);
+        font-family: 'Montserrat Extra Bold';
+}
+
+html,
+body {
+        height: 100%;
+        font-size: 16px;
+}
+
+body {
+        font-family: 'Montserrat', 'Helvetica', serif;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+p {
+        font-size: 0.875rem;
+        color: #636363;
+}
+
+img {
+        object-fit: cover;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+        outline: none;
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+}
+
+.dropdown-item.active{
+        color: #ecca06;
+        background-color: transparent;
+}
+
+/* HEADER */
+
+.header {
+        background: url("../img/softver1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        height: 100%;
+        min-height: 290px;
+}
+
+.header-container {
+        padding: 17% 0;
+}
+
+.header-logo {
+        padding-bottom: 50px;
+}
+
+.header-text {
+        padding-top: 50px;
+}
+
+.header-text h1 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 2.5rem;
+        font-family: 'Montserrat Light', 'Helvetica', serif;
+        font-weight: 300;
+        line-height: 45px;
+}
+
+.header-text p {
+        font-size: 1.1875rem;
+        line-height: 28px;
+        color: #ffffff;
+        font-family: 'Montserrat Light', 'Helvetica', serif;
+        font-weight: 300;
+}
+
+.header-text a {
+        color: #ecca06;
+}
+
+.header-buttons {
+        padding-top: 75px;
+}
+
+.header-overlay {
+        background-color: rgba(31, 31, 31, 0.75);
+        height: 100%;
+}
+
+/* Animacije */
+.wow {
+        -webkit-animation-duration: .55s;
+        -o-animation-duration: .55s;
+        animation-duration: .55s;
+        -webkit-animation-delay: 0s;
+        -o-animation-delay: 0s;
+        animation-delay: 0s;
+}
+
+.header-text h1 {
+        -webkit-animation-delay: .1s;
+        -o-animation-delay: .1s;
+        animation-delay: .1s;
+        -webkit-animation-duration: .75s;
+        -o-animation-duration: .75s;
+        animation-duration: .75s;
+}
+
+/* Dugmadi */
+
+.btn:active,
+.btn:focus {
+        box-shadow: none;
+}
+
+.btn-outline-primary {
+        text-transform: uppercase;
+        padding: 10px 30px;
+        border-color: #ecca06;
+        color: #ecca06;
+        font-size: 1.1875rem;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+.btn-secondary{
+        background-color: #999;
+        border-color: #999;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:focus-within,
+/* focus-within je na desni klik */
+.btn-outline-primary:active,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+        background-color: #ecca06;
+        border-color: #ecca06;
+        color: #fff;
+        outline: none !important;
+}
+
+
+#dugme_nas_rad {
+        margin-left: 30px;
+        text-transform: uppercase;
+        font-size: 1.1875rem;
+        color: #A9ADB0;
+        text-decoration: none;
+        font-weight: 500;
+        font-family: 'Montserrat Medium', 'Helvetica', serif;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+#dugme_nas_rad:hover {
+        color: #fff;
+}
+
+#dugme_nas_rad i {
+        padding-left: 5px;
+        font-size: 1.25rem;
+        color: #ecca06;
+}
+
+/* O nama */
+
+.section-title {
+        padding-top: 90px;
+        padding-bottom: 50px;
+}
+
+.section-title h2 {
+        text-align: center;
+        position: relative;
+        color: #333333;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Montserrat', 'Helvetica', serif;
+        font-size: 1.875rem;
+}
+
+.section-title p {
+        font-family: 'Montserrat Light', 'Helvetica', serif;
+        font-weight: 300;
+        font-size: 1.125rem;
+        margin-top: 45px;
+        text-align: center;
+}
+
+.section-title h2:after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        width: 60px;
+        height: 1px;
+        background-color: #ecca06;
+        margin-left: -30px;
+}
+
+.section-subtitle h2 {
+        font-weight: 800;
+        font-family: 'Montserrat Extra Bold', 'Helvetica', serif;
+        text-transform: uppercase;
+        font-size: 1.875rem;
+        line-height: 37px;
+        color: #333333;
+        position: relative;
+}
+
+.section-subtitle h2:after {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        width: 70px;
+        height: 1px;
+        background-color: #ecca06;
+}
+
+.section-subtitle p {
+        font-size: 1.1875rem;
+        line-height: 24px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+}
+
+.subtitle-content-icon i {
+        float: left;
+        width: 70px;
+        height: 120px;
+        text-align: center;
+        color: #333333;
+        font-size: 3.4375rem;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        font-weight: 600;
+        padding: 10px;
+        margin-right: 25px;
+}
+
+.subtitle-content-text p {
+        font-size: 1rem;
+}
+
+.subtitle-content-text h3 {
+        color: #333333;
+        font-size: 1.25rem;
+        font-weight: 800;
+        font-family: 'Montserrat Extra Bold', 'Helvetica', serif;
+        text-transform: uppercase;
+}
+
+.section-content {
+        padding-top: 40px;
+}
+
+.subtitle-content {
+        padding-top: 10px;
+}
+
+#o_nama img {
+        height: 100%;
+}
+
+.o_nama_img_wrapper {
+        height: 580px;
+}
+
+/* Izjave kupaca */
+
+#izjave {
+        background: url("../img/testimonials.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        margin-top: 50px;
+}
+
+.izjave-overlay {
+        background-color: rgba(31, 31, 31, .75);
+        padding-top: 80px;
+        padding-bottom: 60px;
+}
+
+.img-wrapper {
+        width: 130px;
+        border: 2px solid #ecca06;
+        border-radius: 100%;
+        margin: auto;
+}
+
+.img-wrapper img {
+        border-radius: 100%;
+        padding: 3px;
+}
+
+.izjave-heading h2 {
+        color: #ecca06;
+        font-weight: 900;
+        font-family: 'Montserrat Black', 'Helvetica', serif;
+        font-size: 1.875rem;
+        margin-top: 25px;
+        text-transform: uppercase;
+}
+
+.izjave-heading h5 {
+        color: #ecca06;
+        font-family: 'Montserrat Light', 'Helvetica', serif;
+        font-weight: 300;
+}
+
+.izjave-heading h5 em {
+        color: #dbdbdb;
+}
+
+.izjave-paragraph p {
+        color: #dbdbdb;
+        font-size: 1.125rem;
+        line-height: 27px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+}
+
+/* nudimo */
+
+.subtitle-content-icon-2 i {
+        float: right;
+        width: 90px;
+        height: 110px;
+        text-align: center;
+        color: #333333;
+        font-size: 2.5rem;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        font-weight: 600;
+        margin-left: 0px;
+}
+
+.subtitle-content-icon-3 i {
+        float: left;
+        width: 90px;
+        height: 110px;
+        text-align: center;
+        color: #333333;
+        font-size: 2.5rem;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        font-weight: 600;
+        margin-right: 0px;
+}
+
+#nudimo .subtitle-content-text h3 {
+        font-size: 1.5625rem;
+        font-weight: 700;
+        font-family: 'Montserrat Bold', 'Helvetica', serif;
+        margin-bottom: 25px;
+        color: #333333;
+}
+
+#nudimo .subtitle-content-text {
+        margin-bottom: 65px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+        color: #fff !important;
+        background-color: #ecca06 !important;
+        border-color: #ecca06 !important;
+        text-transform: uppercase;
+        padding: 12px 30px;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        box-shadow: none !important;
+}
+
+#nudimo img {
+        width: 100%;
+        height: 90%;
+}
+
+/* Proizvodi */
+
+#proizvodi{
+        background-color: #f9f9f9;
+}
+
+.proizvodi-item {
+        width: 350px;
+        height: 435px;
+        margin: auto;
+}
+
+.proizvodi-item img {
+        height: 100%;
+        object-position: right;
+}
+
+/* Brojač */
+
+#brojac {
+        background: url("../img/testimonials.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        margin-top: 20px;
+        margin-bottom: 0;
+        background-position: 50% 50%;
+}
+
+.brojac-content {
+        padding: 70px;
+}
+
+.brojac-content strong {
+        color: #dbdbdb;
+        font-size: 35px;
+        font-weight: 700;
+        font-family: 'Montserrat Bold', 'Helvetica', serif;
+}
+
+.brojac-content p {
+        font-size: 1.125rem;
+        font-family: 'Montserrat Light', 'Helvetica', serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 0;
+        color: #dbdbdb;
+}
+
+.brojac-content i {
+        color: #ecca06;
+        font-size: 50px;
+        padding: 20px 0;
+}
+
+.brojac-overlay {
+        background: rgba(0, 0, 0, .6);
+        padding: 40px 0;
+}
+
+/* DOWNLOAD */
+
+#download img {
+        width: 100%;
+        padding-bottom: 50px;
+}
+
+/* Dostupno na */
+
+#dostupno {
+        background: #1a1a1a;
+        padding: 80px 0 0px 0;
+}
+
+#dostupno p {
+        color: #dbdbdb;
+}
+
+#dostupno h2 {
+        color: #ffffff;
+        font-size: 1.875rem;
+}
+
+#dostupno a {
+        text-decoration: none;
+}
+
+.download-icon {
+        border-left: 1px solid #0F1217;
+        min-height: 230px;
+        margin-top: -80px;
+        text-align: center;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        padding-top: 80px;
+        font-size: 2.5rem;
+        color: #fff;
+}
+
+.download-icon:hover {
+        background: #121212;
+        cursor: pointer;
+        color: #fff;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+.download-icon i {
+        color: #ecca06;
+}
+
+.download-icon:hover i {
+        color: #121212;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+.download-icon h6 {
+        margin: auto;
+        margin-top: -35px;
+        display: none;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        font-weight: 300;
+        font-size: 1rem;
+}
+
+.download-icon:hover h6 {
+        margin: auto;
+        margin-top: -35px;
+        display: block;
+}
+
+/* Kontakt */
+
+input {
+        width: 100%;
+        text-align: start;
+        height: 50px;
+        padding: 8px 12px;
+        margin-bottom: 20px;
+        border: 1px solid #aeaeae;
+        border-radius: 3px;
+        outline: 0px !important;
+        color: #333333;
+        font-size: 0.875rem;
+        opacity: .8;
+}
+
+#message {
+        padding-left: 12px;
+        padding-bottom: 80px;
+        height: 120px;
+}
+
+#kontakt .send {
+        width: 100%;
+}
+
+.btn-outline-secondary {
+        margin: 0px;
+        padding: 8px 0;
+        font-size: 1.25rem;
+        width: 30px;
+        height: 30px;
+        color: #aeaeae;
+        outline: 0px !important;
+        border: none;
+        text-align: center;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+.btn-outline-secondary:hover {
+        color: #ecca06;
+        border: none;
+        background: transparent;
+}
+
+#footer {
+        background: #1a1a1a;
+        border-bottom: 3px solid #ecca06;
+        padding: 20px;
+}
+
+#footer p {
+        color: #8C8B8A;
+        font-weight: 600;
+        font-family: 'Montserrat Semi Bold', 'Helvetica', serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 0px;
+}
+
+#footer span, #footer span a {
+        color: #ecca06;
+}
+
+#back-to-top {
+        height: 70px;
+        border-radius: 0;
+        padding: 20px;
+        width: 70px;
+}
+
+/* NAVIGATION */
+
+nav {
+        width: 200%;
+        background: none;
+        border-bottom: none;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+nav a {
+        color: #B5B5B5;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        font-size: 0.875rem;
+}
+
+nav a:hover {
+        color: #ecca06 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+        color: #ecca06;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, .65);
+}
+
+.bg-nav {
+        background: rgba(56, 56, 56, 0.85);
+        border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+/* ANIMATION */
+
+.wow {
+        animation-delay: .5s;
+}
+
+/**************************************************************
+                        novosti.html
+***************************************************************/
+.img-sadrzaj img {
+        height: 400px;
+        width: 100%;
+        cursor: pointer;
+}
+
+.tekst-sadrzaj p {
+        font-size: 1rem;
+        line-height: 1.5;
+}
+
+.sadrzaj_pogledaj_vise {
+        text-transform: uppercase;
+        padding: 8px 20px;
+        border-color: #ecca06;
+        color: #ecca06;
+        font-size: 1.0625rem;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+}
+
+.sadrzaj_pogledaj_vise:hover,
+.sadrzaj_pogledaj_vise:focus,
+.sadrzaj_pogledaj_vise:active,
+.sadrzaj_pogledaj_vise:visited {
+        color: #fff;
+        background: #ecca06;
+        border-color: #ecca06;
+}
+
+#galerija .col-md-6 {
+        margin-top: 90px;
+}
+
+#naslov h1 {
+        text-transform: uppercase;
+        border-bottom: 2px solid #ecca06;
+        padding-bottom: 10px;
+        width: 100px;
+}
+
+#galerija .img-sadrzaj {
+        overflow: hidden;
+}
+
+#galerija img {
+        -webkit-transition: all .4s;
+        -o-transition: all .4s;
+        transition: all .4s;
+}
+
+#galerija img:hover {
+        transform: scale(1.1);
+        border-radius: 1%;
+}
+
+.tekst-sadrzaj div {
+        margin-bottom: 35px;
+}
+
+#galerija .modal-body img{
+        width: 100%;
+        height: 200px;
+        border-radius: 0;
+}
+
+#galerija .modal-body img:hover{
+        transform: none;
+}
+/**************************************************************
+                        onama.html
+***************************************************************/
+#onama p {
+        font-size: 1rem;
+        letter-spacing: .1px;
+        text-align: justify;
+}
+
+#onama img {
+        height: 100%;
+}
+
+#slider-tim {
+        margin-top: 50px;
+}
+
+.img-wrapper-tim {
+        width: 350px;
+        margin: auto;
+}
+
+.img-wrapper-tim img {
+        padding: 3px;
+        height: 400px;
+        cursor: pointer;
+}
+
+.modal-body{
+        text-align: justify;
+}
+
+.modal-body img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+}
+
+.modal-body ul{
+        font-size: 0.875rem;
+        color: #636363;
+}
+
+.tim-heading h2 {
+        color: #ecca06;
+        font-weight: 900;
+        font-family: 'Montserrat Black', 'Helvetica', serif;
+        font-size: 1.875rem;
+        margin-top: 25px;
+        text-transform: uppercase;
+}
+
+.tim-heading h5 em {
+        color: #636363;
+        font-weight: 400;
+        font-family: 'Montserrat', 'Helvetica', serif;
+}
+
+.tim-paragraph p {
+        color: #dbdbdb;
+        font-size: 1.125rem;
+        line-height: 27px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+}
+
+#rezultati .section-title {
+        padding-top: 70px;
+}
+
+.tim-icons>ul>li {
+        display: inline;
+}
+
+.item {
+        margin: 0 auto;
+}
+
+/**************************************************************
+                        galerija.html
+***************************************************************/
+#galerija-slike img {
+        width: 100%;
+        height: 100%;
+}
+
+#galerija-slike img:hover {
+        transform: scale(1.1);
+}
+
+#galerija-slike img {
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+}
+
+.carousel-item{
+        height: 500px;
+}
+
+/**************************************************************
+                        kontakt.html
+***************************************************************/
+
+
+iframe {
+        width: 100%;
+        height: 450px;
+}
+
+#kontakt-podaci {
+        font-size: 1.25rem;
+        color: #636363;
+}
+
+.kontakt_link {
+        color: #434343;
+}
+
+.kontakt_link:hover {
+        color: #333333;
+        text-decoration: none;
+        font-family: 'Montserrat Semi Bold';
+}
+
+.kontakt_link_footer {
+        color: #ACABAA;
+}
+
+.kontakt_link_footer:hover {
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat Semi Bold';
+}
+
+/* Rezponzivnost */
+/*===================================================================
+                        BOOTSTRAP 4 MEDIA QUERIES
+====================================================================*/
+
+/* Large */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+        html,
+        body {
+                font-size: 15px;
+        }
+
+        .subtitle-content-icon-2 i {
+                height: 128px;
+        }
+
+        .subtitle-content-icon-3 i {
+                height: 158px;
+        }
+}
+
+/* Medium */
+
+@media (min-width: 768px) and (max-width: 991px) {
+        .o_nama_img_wrapper {
+                height: 300px;
+        }
+
+        html,
+        body {
+                font-size: 14.5px;
+        }
+
+        .header-overlay {
+                padding: 70px 20px;
+        }
+
+        .header-iphone {
+                padding-top: 50px;
+        }
+
+        #o_nama .section-subtitle {
+                padding-top: 20px;
+        }
+
+        .brojac-content {
+                padding: 0;
+        }
+
+        .download-icon {
+                margin-top: 0px;
+        }
+
+        #kontakt-podaci {
+                font-size: 17px;
+        }
+
+        #galerija .img-sadrzaj {
+                height: 350px;
+        }
+}
+
+/* Small */
+
+@media (max-width: 767px) {
+
+        html,
+        body {
+                font-size: 14px;
+        }
+
+        .o_nama_img_wrapper {
+                height: 350px;
+                margin-top: -80px;
+                padding-bottom: 20px;
+        }
+
+        #onama img {
+                height: 350px;
+        }
+
+        .header-container {
+                padding: 200px 0;
+        }
+
+        .header-text {
+                text-align: center;
+        }
+
+        .brojac-content {
+                padding: 0;
+        }
+
+        .download-icon {
+                margin-top: 0px;
+        }
+
+        #footer p {
+                margin-top: 5px;
+                font-size: 13px;
+        }
+
+        #copyright {
+                margin-top: 25px;
+        }
+
+        #copyright p {
+                margin-bottom: 0;
+        }
+
+        #galerija .img-sadrzaj {
+                height: 350px;
+        }
+
+        #galerija .tekst-sadrzaj {
+                margin-top: -60px;
+        }
+
+}
+
+/* Extra small 1. dio */
+
+@media (max-width: 480px) {
+
+        html,
+        body {
+                font-size: 13px;
+        }
+
+        .proizvodi-item img {
+                height: 80%;
+        }
+
+        .header-buttons {
+                display: flex;
+                flex-direction: column;
+        }
+
+        .header-buttons a {
+                padding: 10px 0;
+        }
+
+        #o_nama .section-subtitle h2 {
+                padding-top: 20px;
+        }
+
+        .subtitle-content-icon i {
+                height: 150px;
+        }
+}
+
+@media (max-width: 408px) {
+        .subtitle-content-icon i {
+                height: 200px;
+        }
+}
+
+@media (max-width: 396px) {
+        .subtitle-content-icon-3 i {
+                height: 150px;
+        }
+}
+
+@media (max-width: 341px) {
+        .subtitle-content-icon i {
+                height: 212px;
+        }
+
+        .subtitle-content-icon-2 i {
+                height: 200px;
+        }
+
+        .subtitle-content-icon-3 i {
+                height: 200px;
+        }
+}
+
+/* Extra small 2.dio */
+
+@media (max-width: 320px) {
+        .subtitle-content-icon i {
+                height: 250px;
+        }
+
+        .subtitle-content-icon-2 i {
+                height: 220px;
+        }
+
+        .subtitle-content-icon-3 i {
+                height: 220px;
+        }
+
+        #proizvodi .container-fluid {
+                padding: 0 50px 0 0;
+        }
+}
+
+@media (max-width: 302px) {
+        .subtitle-content-icon i {
+                height: 290px;
+        }
+}
+
+@media (max-width: 286px) {
+        .subtitle-content-icon i {
+                height: 302px;
+        }
+}
+
+@media (max-width: 283px) {
+        .subtitle-content-icon i {
+                height: 350px;
+        }
+}
