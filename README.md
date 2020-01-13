@@ -1,5 +1,7 @@
 # Ipsuma
 
+### App demo: [https://ajdinkomic.github.io/ipsuma-website/](https://ajdinkomic.github.io/ipsuma-website/)
+
 ### Description
 This is one of my earlier college projects in Web development subject. It is a static website for a fictional software company named Ipsuma. The content is written in the Bosnian language.
 
