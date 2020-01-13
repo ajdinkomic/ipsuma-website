@@ -1,7 +1,7 @@
 # Ipsuma
 
 ### Description
-This is one of my earlier college projects in Web development subject. IT is a static website for a fictional software company named Ipsuma. The content is written in the Bosnian language.
+This is one of my earlier college projects in Web development subject. It is a static website for a fictional software company named Ipsuma. The content is written in the Bosnian language.
 
 ### Landing page header screenshot
 ![Landing page screenshot](/img/screenshot.png)
@@ -11,3 +11,5 @@ This is one of my earlier college projects in Web development subject. IT is a s
 Website is optimized for offline use also.
 
 **Tools and technologies used:** HTML5, CSS3, JavaScript, jQuery, Bootstrap
+
+**Design:** [Irfan Dayan](https://www.udemy.com/course/build-responsive-website-using-html5-css3-js-and-bootstrap/)
