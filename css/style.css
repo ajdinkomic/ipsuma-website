@@ -42,13 +42,17 @@
 
 html,
 body {
-        width:100%;
+        width: 100%;
         height: 100%;
         font-size: 16px;
         font-family: 'Montserrat', 'Helvetica', serif;
         position: relative;
         margin: 0;
         padding: 0;
+}
+
+body {
+        overflow-x: hidden;
 }
 
 p {
@@ -1048,6 +1052,7 @@ iframe {
         .subtitle-content-icon i {
                 height: 200px;
         }
+
         #nudimo .subtitle-content-text {
                 margin-bottom: 100px;
         }
@@ -1071,6 +1076,7 @@ iframe {
         .subtitle-content-icon-3 i {
                 height: 200px;
         }
+
         #nudimo .subtitle-content-text {
                 margin-bottom: 150px;
         }
