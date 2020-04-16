@@ -54,324 +54,342 @@
 
 <body>
 
-    <!-- HEADER -->
-    <header id="home" class="header">
-        <!-- NAVIGACIJA -->
-        <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="overflow-hidden-wrapper">
+
+        <!-- HEADER -->
+        <header id="home" class="header">
+            <!-- NAVIGACIJA -->
+            <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo_ipsuma.png" alt="logo" style="width: 50%;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Početna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="onama.html">O nama</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="novosti.html" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Novosti
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="novosti.html">Sve novosti</a>
+                                    <a class="dropdown-item active" href="novostihtml.html">HTML</a>
+                                    <a class="dropdown-item" href="novosticss.html">CSS</a>
+                                    <a class="dropdown-item" href="novostijs.html">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galerija.html">galerija</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- LOGO, NASLOV, OPIS I DUGMAD -->
+            <div class="header-overlay">
+                <div class="container header-container">
+
+                    <div class="row">
+                        <div class="col-lg-12 header-text text-center">
+                            <h1>Softverska rješenja za kojima tragate</h1>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="naslov" class="text-center">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo_ipsuma.png" alt="logo" style="width: 50%;">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Početna</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="onama.html">O nama</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="novosti.html" id="navbarDropdown"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Novosti
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="novosti.html">Sve novosti</a>
-                                <a class="dropdown-item active" href="novostihtml.html">HTML</a>
-                                <a class="dropdown-item" href="novosticss.html">CSS</a>
-                                <a class="dropdown-item" href="novostijs.html">JavaScript</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galerija.html">galerija</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- LOGO, NASLOV, OPIS I DUGMAD -->
-        <div class="header-overlay">
-            <div class="container header-container">
-
                 <div class="row">
-                    <div class="col-lg-12 header-text text-center">
-                        <h1>Softverska rješenja za kojima tragate</h1>
-                        <p>HTML, CSS, JavaScript</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="naslov" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-sm-12">
-                    <div class="section-title">
-                        <h2>Novosti HTML</h2>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <!-- Sadržaj i slike -->
-    <section id="galerija">
-        <div class="container mb-5">
-            <div class="row align-items-sm-center align-items-start">
-                <div class="col-md-6">
-                    <div class="img-sadrzaj">
-                        <a data-toggle="modal" data-target="#exampleModalCenter3">
-                            <img src="img/html5.png" class="img-fluid" alt="html 1">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="tekst-sadrzaj">
-                        <h3>Naučite HTML</h3>
-                        <p>HTML je kratica za HyperText Markup Language, što znači prezentacijski jezik za izradu web
-                            stranica. Hipertekst dokument stvara se pomoću HTML jezika. HTML jezikom oblikuje se sadržaj
-                            i stvaraju se hiperveze hipertext dokumenta.</p>
-                        <div>20.10.2019. 11:38</div>
-                        <div><strong><em>#HTML</em></strong></div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="row align-items-sm-center align-items-start">
-                <div class="col-md-6">
-                    <div class="img-sadrzaj">
-                        <a data-toggle="modal" data-target="#exampleModalCenter6">
-                            <img src="img/html53.png" class="img-fluid" alt="html 2">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="tekst-sadrzaj">
-                        <h3>HTML meta tagovi</h3>
-                        <p>Meta tagovi su dijelovi HTML-a u stranici koje upotrebljavaju tražilice da bi zapisale
-                            informacije o vašoj stranici. Ovi tagovi sadrže ključne riječi, opis, informaciju o
-                            vlasništvu, naziv stranice itd.</p>
-                        <div>28.9.2019. 12:45</div>
-                        <div><strong><em>#HTML</em></strong></div>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="row align-items-sm-center align-items-start">
-                <div class="col-md-6">
-                    <div class="img-sadrzaj">
-                        <a data-toggle="modal" data-target="#exampleModalCenter9">
-                            <img src="img/html52.png" class="img-fluid" alt="html 3">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="tekst-sadrzaj">
-                        <h3>Slike u HTML-u</h3>
-                        <p>Kada bi web stranice sadržavale samo tekst i dalje bi bile tehnološki impresivne, ali bez
-                            slika ne bi bile niti približno zabavne kao danas. Dva najčešće upotrebljavana grafička
-                            formata datoteka na internetu su GIF i JPEG ...</p>
-                        <div>21.8.2019. 11:50</div>
-                        <div><strong><em>#HTML</em></strong></div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 3 -->
-        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Naučite HTML</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center mb-3">
-                            <img src="img/html5.png" alt="html 1">
+                    <div class="col-lg-10 offset-lg-1 col-sm-12">
+                        <div class="section-title">
+                            <h2>Novosti HTML</h2>
                         </div>
-                        <p>HTML je kratica za HyperText Markup Language, što znači prezentacijski jezik za izradu web
-                            stranica. Hipertekst dokument stvara se pomoću HTML jezika. HTML jezikom oblikuje se sadržaj
-                            i
-                            stvaraju se hiperveze hipertext dokumenta. HTML je jednostavan za uporabu i lako se uči, što
-                            je
-                            jedan od razloga njegove opće prihvaćenosti i popularnosti.</p>
-                        <p>Svoju raširenost zahvaljuje
-                            jednostavnosti i tome što je od početka bio zamišljen kao besplatan i tako dostupan svima.
-                            Prikaz hipertekst dokumenta omogućuje web preglednik. Temeljna zadaća HTML jezika jest
-                            uputiti
-                            web preglednik kako prikazati hipertext dokument.</p>
-                        <p> Pri tome se nastoji da taj dokument izgleda
-                            jednako bez obzira o kojemu je web pregledniku, računalu i operacijskom sustavu riječ. HTML
-                            nije
-                            programski jezik niti su ljudi koji ga koriste programeri. Njime ne možemo izvršiti nikakvu
-                            zadaću, pa čak ni najjednostavniju operaciju zbrajanja ili oduzimanja dvaju cijelih brojeva.
-                            On
-                            služi samo za opis naših hipertekstualnih dokumenata. Html datoteke su zapravo obične
-                            tekstualne
-                            datoteke, ekstenzija im je .html ili .htm.</p>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+        </section>
+
+        <!-- Sadržaj i slike -->
+        <section id="galerija">
+            <div class="container mb-5">
+                <div class="row align-items-sm-center align-items-start">
+                    <div class="col-md-6">
+                        <div class="img-sadrzaj">
+                            <a data-toggle="modal" data-target="#exampleModalCenter3">
+                                <img src="img/html5.png" class="img-fluid" alt="html 1">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tekst-sadrzaj">
+                            <h3>Naučite HTML</h3>
+                            <p>HTML je kratica za HyperText Markup Language, što znači prezentacijski jezik za izradu
+                                web
+                                stranica. Hipertekst dokument stvara se pomoću HTML jezika. HTML jezikom oblikuje se
+                                sadržaj
+                                i stvaraju se hiperveze hipertext dokumenta.</p>
+                            <div>20.10.2019. 11:38</div>
+                            <div><strong><em>#HTML</em></strong></div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row align-items-sm-center align-items-start">
+                    <div class="col-md-6">
+                        <div class="img-sadrzaj">
+                            <a data-toggle="modal" data-target="#exampleModalCenter6">
+                                <img src="img/html53.png" class="img-fluid" alt="html 2">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tekst-sadrzaj">
+                            <h3>HTML meta tagovi</h3>
+                            <p>Meta tagovi su dijelovi HTML-a u stranici koje upotrebljavaju tražilice da bi zapisale
+                                informacije o vašoj stranici. Ovi tagovi sadrže ključne riječi, opis, informaciju o
+                                vlasništvu, naziv stranice itd.</p>
+                            <div>28.9.2019. 12:45</div>
+                            <div><strong><em>#HTML</em></strong></div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row align-items-sm-center align-items-start">
+                    <div class="col-md-6">
+                        <div class="img-sadrzaj">
+                            <a data-toggle="modal" data-target="#exampleModalCenter9">
+                                <img src="img/html52.png" class="img-fluid" alt="html 3">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tekst-sadrzaj">
+                            <h3>Slike u HTML-u</h3>
+                            <p>Kada bi web stranice sadržavale samo tekst i dalje bi bile tehnološki impresivne, ali bez
+                                slika ne bi bile niti približno zabavne kao danas. Dva najčešće upotrebljavana grafička
+                                formata datoteka na internetu su GIF i JPEG ...</p>
+                            <div>21.8.2019. 11:50</div>
+                            <div><strong><em>#HTML</em></strong></div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Modal 6 -->
-        <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">HTML meta tagovi</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center mb-3">
-                            <img src="img/html53.png" alt="html 2">
+            <!-- Modal 3 -->
+            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Naučite HTML</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
-                        <p>Meta tagovi su dijelovi HTML-a u stranici koje upotrebljavaju tražilice da bi zapisale
-                            informacije o vašoj stranici. Ovi tagovi sadrže ključne riječi, opis, informaciju o
-                            vlasništvu, naziv stranice itd.</p>
-                        <p>Oni su među mnogim stvarima koje ispituju tražilice kada "gledaju" vašu stranicu. Iako ih
-                            nije nužno, vrlo ih je korisno upotrebljavati, pogotovo ako želite imati dobru poziciju na
-                            tražilicama (a tko ne želi?). </p>
-                        <p> Ako napravite web stranicu i registrirate URL kod tražilica, one će posjetiti vašu stranicu
-                            i pokušati je indexirati. Svaka tražilica funkcionira malo drugačije, i svaka drukčije
-                            cijeni pojedine elemente web stranice. </p>
-                        <p>Meta tagovi bi uvijek trebali biti smješteni u head područje HTML dokumenta. head tag se
-                            nalazi odmah nakon html taga, i završava prije body taga.</p>
-                        <p>Primjer: <br>
-                            &lt;title&gt; Naziv stranice &lt;/title&gt; <br>
-                            &lt;meta name="description" content="opis web stranice"&gt; <br>
-                            &lt;meta name="keywords" content="popis ključnih riječi vezanih za sadržaj stranice"&gt;
-                            <br>
-                            &lt;meta name="robots" content="index,follow"&gt;
+                        <div class="modal-body">
+                            <div class="text-center mb-3">
+                                <img src="img/html5.png" alt="html 1">
+                            </div>
+                            <p>HTML je kratica za HyperText Markup Language, što znači prezentacijski jezik za izradu
+                                web
+                                stranica. Hipertekst dokument stvara se pomoću HTML jezika. HTML jezikom oblikuje se
+                                sadržaj
+                                i
+                                stvaraju se hiperveze hipertext dokumenta. HTML je jednostavan za uporabu i lako se uči,
+                                što
+                                je
+                                jedan od razloga njegove opće prihvaćenosti i popularnosti.</p>
+                            <p>Svoju raširenost zahvaljuje
+                                jednostavnosti i tome što je od početka bio zamišljen kao besplatan i tako dostupan
+                                svima.
+                                Prikaz hipertekst dokumenta omogućuje web preglednik. Temeljna zadaća HTML jezika jest
+                                uputiti
+                                web preglednik kako prikazati hipertext dokument.</p>
+                            <p> Pri tome se nastoji da taj dokument izgleda
+                                jednako bez obzira o kojemu je web pregledniku, računalu i operacijskom sustavu riječ.
+                                HTML
+                                nije
+                                programski jezik niti su ljudi koji ga koriste programeri. Njime ne možemo izvršiti
+                                nikakvu
+                                zadaću, pa čak ni najjednostavniju operaciju zbrajanja ili oduzimanja dvaju cijelih
+                                brojeva.
+                                On
+                                služi samo za opis naših hipertekstualnih dokumenata. Html datoteke su zapravo obične
+                                tekstualne
+                                datoteke, ekstenzija im je .html ili .htm.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 6 -->
+            <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">HTML meta tagovi</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center mb-3">
+                                <img src="img/html53.png" alt="html 2">
+                            </div>
+                            <p>Meta tagovi su dijelovi HTML-a u stranici koje upotrebljavaju tražilice da bi zapisale
+                                informacije o vašoj stranici. Ovi tagovi sadrže ključne riječi, opis, informaciju o
+                                vlasništvu, naziv stranice itd.</p>
+                            <p>Oni su među mnogim stvarima koje ispituju tražilice kada "gledaju" vašu stranicu. Iako ih
+                                nije nužno, vrlo ih je korisno upotrebljavati, pogotovo ako želite imati dobru poziciju
+                                na
+                                tražilicama (a tko ne želi?). </p>
+                            <p> Ako napravite web stranicu i registrirate URL kod tražilica, one će posjetiti vašu
+                                stranicu
+                                i pokušati je indexirati. Svaka tražilica funkcionira malo drugačije, i svaka drukčije
+                                cijeni pojedine elemente web stranice. </p>
+                            <p>Meta tagovi bi uvijek trebali biti smješteni u head područje HTML dokumenta. head tag se
+                                nalazi odmah nakon html taga, i završava prije body taga.</p>
+                            <p>Primjer: <br>
+                                &lt;title&gt; Naziv stranice &lt;/title&gt; <br>
+                                &lt;meta name="description" content="opis web stranice"&gt; <br>
+                                &lt;meta name="keywords" content="popis ključnih riječi vezanih za sadržaj stranice"&gt;
+                                <br>
+                                &lt;meta name="robots" content="index,follow"&gt;
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 9 -->
+            <div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Slike u HTML-u</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center mb-3">
+                                <img src="img/html52.png" alt="html 3">
+                            </div>
+                            <p>Kada bi web stranice sadržavale samo tekst i dalje bi bile tehnološki impresivne, ali bez
+                                slika ne bi bile niti približno zabavne kao danas. Dva najčešće upotrebljavana grafička
+                                formata datoteka na internetu su GIF i JPEG</p>
+                            <p>JPEG (Joint Photographic Experts Group) format primarno se koristi za prikaz realističnih
+                                slika fotografske kvalitete, dok se gif koristi za slike s manjim spektrom boja, kao što
+                                su
+                                na primjer navigacijske ikone, banneri, animacije itd.</p>
+                            <p> Među web dizajnerima veliku je popularnost stekao i format PNG
+                                koji je stvoren kako bi poboljšao i zamjenio GIF format. PNG podržava slike zasnovane na
+                                paleti (s paletom definiranom 24 bitnim RGB bojama), greyscale slike (sivih tonova) i
+                                RGB
+                                slike.</p>
+                            <p>
+                                <strong>Primjer: </strong> <br><br>
+                                <em>&lt;html&gt;<br>
+                                    &lt;head&gt;<br>
+                                    &lt;title&gt;Primjer ubacivanja slike&lt;/title&gt;<br>
+                                    &lt;/head&gt;<br>
+                                    &lt;body&gt;<br>
+                                    &lt;img src="link_lokacije_slike.jpg"/&gt;<br>
+                                    &lt;body/&gt;<br>
+                                    &lt;html&gt;
+                                </em>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 p-0">
+                        <p>copyright &copy; 2019
+                            <span>- ipsuma</span>
                         </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 9 -->
-        <div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Slike u HTML-u</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center mb-3">
-                            <img src="img/html52.png" alt="html 3">
-                        </div>
-                        <p>Kada bi web stranice sadržavale samo tekst i dalje bi bile tehnološki impresivne, ali bez
-                            slika ne bi bile niti približno zabavne kao danas. Dva najčešće upotrebljavana grafička
-                            formata datoteka na internetu su GIF i JPEG</p>
-                        <p>JPEG (Joint Photographic Experts Group) format primarno se koristi za prikaz realističnih
-                            slika fotografske kvalitete, dok se gif koristi za slike s manjim spektrom boja, kao što su
-                            na primjer navigacijske ikone, banneri, animacije itd.</p>
-                        <p> Među web dizajnerima veliku je popularnost stekao i format PNG
-                            koji je stvoren kako bi poboljšao i zamjenio GIF format. PNG podržava slike zasnovane na
-                            paleti (s paletom definiranom 24 bitnim RGB bojama), greyscale slike (sivih tonova) i RGB
-                            slike.</p>
-                        <p>
-                            <strong>Primjer: </strong> <br><br>
-                            <em>&lt;html&gt;<br>
-                                &lt;head&gt;<br>
-                                &lt;title&gt;Primjer ubacivanja slike&lt;/title&gt;<br>
-                                &lt;/head&gt;<br>
-                                &lt;body&gt;<br>
-                                &lt;img src="link_lokacije_slike.jpg"/&gt;<br>
-                                &lt;body/&gt;<br>
-                                &lt;html&gt;
-                            </em>
+                        <p>Developed by <span><a href="https://github.com/ajdinkomic"><em>ajdin komić</em></a></span>
                         </p>
+                        <a href="https://facebook.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://youtube.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    <div class="col-4 text-right p-0">
+                        <a id="back-to-top" href="#home" class="btn btn-primary smooth-scroll">
+                            <i class="fas fa-angle-up"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
 
 
+        <!-- SKRIPTE -->
 
-    </section>
+        <!-- jQuery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
 
-    <!-- FOOTER -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-8 p-0">
-                    <p>copyright &copy; 2019
-                        <span>- ipsuma</span>
-                    </p>
-                    <p>Developed by <span><a href="https://github.com/ajdinkomic"><em>ajdin komić</em></a></span></p>
-                    <a href="https://facebook.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://youtube.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="col-4 text-right p-0">
-                    <a id="back-to-top" href="#home" class="btn btn-primary smooth-scroll">
-                        <i class="fas fa-angle-up"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        <!-- Bootstrap 4 JS -->
+        <script src="js/bootstrap.min.js"></script>
 
+        <!-- Owl JS -->
+        <script src="js/owl.carousel.min.js"></script>
 
-    <!-- SKRIPTE -->
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
 
-    <!-- Bootstrap 4 JS -->
-    <script src="js/bootstrap.min.js"></script>
+        <script>
 
-    <!-- Owl JS -->
-    <script src="js/owl.carousel.min.js"></script>
+        </script>
 
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
-
-    <script>
-
-    </script>
+    </div>
 
 </body>
 

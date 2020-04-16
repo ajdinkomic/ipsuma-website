@@ -54,330 +54,345 @@
 
 <body>
 
-    <!-- HEADER -->
-    <header id="home" class="header">
-        <!-- NAVIGACIJA -->
-        <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="overflow-hidden-wrapper">
+
+        <!-- HEADER -->
+        <header id="home" class="header">
+            <!-- NAVIGACIJA -->
+            <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo_ipsuma.png" alt="logo" style="width: 50%;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Početna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="onama.html">O nama</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="novosti.html" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Novosti
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="novosti.html">Sve novosti</a>
+                                    <a class="dropdown-item" href="novostihtml.html">HTML</a>
+                                    <a class="dropdown-item" href="novosticss.html">CSS</a>
+                                    <a class="dropdown-item active" href="novostijs.html">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galerija.html">galerija</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- LOGO, NASLOV, OPIS I DUGMAD -->
+            <div class="header-overlay">
+                <div class="container header-container">
+
+                    <div class="row">
+                        <div class="col-lg-12 header-text text-center">
+                            <h1>Softverska rješenja za kojima tragate</h1>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="naslov" class="text-center">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo_ipsuma.png" alt="logo" style="width: 50%;">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Početna</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="onama.html">O nama</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="novosti.html" id="navbarDropdown"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Novosti
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="novosti.html">Sve novosti</a>
-                                <a class="dropdown-item" href="novostihtml.html">HTML</a>
-                                <a class="dropdown-item" href="novosticss.html">CSS</a>
-                                <a class="dropdown-item active" href="novostijs.html">JavaScript</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galerija.html">galerija</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- LOGO, NASLOV, OPIS I DUGMAD -->
-        <div class="header-overlay">
-            <div class="container header-container">
-
                 <div class="row">
-                    <div class="col-lg-12 header-text text-center">
-                        <h1>Softverska rješenja za kojima tragate</h1>
-                        <p>HTML, CSS, JavaScript</p>
+                    <div class="col-lg-10 offset-lg-1 col-sm-12">
+                        <div class="section-title">
+                            <h2>Novosti JavaScript</h2>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sadržaj i slike -->
+        <section id="galerija">
+            <div class="container mb-5">
+                <div class="row align-items-sm-center align-items-start">
+                    <div class="col-md-6">
+                        <div class="img-sadrzaj">
+                            <a data-toggle="modal" data-target="#exampleModalCenter5">
+                                <img src="img/js2.png" class="img-fluid" alt="js 1">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tekst-sadrzaj">
+                            <h3>Uvod u JS</h3>
+                            <p>JavaScript je skriptni programski jezik, koji se izvršava u web pregledniku na strani
+                                korisnika. Napravljen je da bude sličan Javi, zbog lakšeg korištenja, ali nije objektno
+                                orijentisan kao Java, već se temelji na prototipu i tu prestaje svaka povezanost s
+                                programskim jezikom Java.</p>
+                            <div>15.10.2019. 10:28</div>
+                            <div><strong><em>#JAVASCRIPT</em></strong></div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row align-items-sm-center align-items-start">
+                    <div class="col-md-6">
+                        <div class="img-sadrzaj">
+                            <a data-toggle="modal" data-target="#exampleModalCenter8">
+                                <img src="img/js2.jpg" class="img-fluid" alt="js 2">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tekst-sadrzaj">
+                            <h3>JS sintaksa</h3>
+                            <p>U JavaScript-u, varijable se mogu definisati koristeći ključne riječi <em>let</em>,
+                                <em>var</em> ili <em>const</em>.<br>
+                                Komentari se navode nakon znakova <em>//</em>.</p>
+                            <div>9.9.2019. 17:08</div>
+                            <div><strong><em>#JAVASCRIPT</em></strong></div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row align-items-sm-center align-items-start">
+                    <div class="col-md-6">
+                        <div class="img-sadrzaj">
+                            <a data-toggle="modal" data-target="#exampleModalCenter11">
+                                <img src="img/js3.png" class="img-fluid" alt="js 3">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tekst-sadrzaj">
+                            <h3>Upotreba JavaScript-a u web stranicama</h3>
+                            <p>Od maja 2017, 94.5% od 10 miliona najpopularnijih web stranica koristilo je JavaScript.
+                                Najčešća upotreba JavaScript-a je dodavanje ponašanja na strani klijenta na HTML
+                                stranice, također poznato kao dinamički HTML (DHTML).</p>
+                            <div>10.8.2019. 13:40</div>
+                            <div><strong><em>#JAVASCRIPT</em></strong></div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Modal 5 -->
+            <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Uvod u JS</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center mb-3">
+                                <img src="img/js2.png" alt="html 1">
+                            </div>
+                            <p>JavaScript je skriptni programski jezik, koji se izvršava u web pregledniku na strani
+                                korisnika. Napravljen je da bude sličan Javi, zbog lakšeg korištenja, ali nije objektno
+                                orijentisan kao Java, već se temelji na prototipu i tu prestaje svaka povezanost s
+                                programskim jezikom Java.</p>
+                            <p>Uz HTML i CSS, JavaScript je jedna od glavnih tehnologija "World Wide Web-a". JavaScript
+                                omogućava interaktivne web stranice i bitan je dio web aplikacija. Velika većina web
+                                stranica koristi ga, a glavni web preglednici imaju namjenski JavaScript mehanizam za
+                                njegovo izvršavanje.
+                            </p>
+                            <p> Iako postoje sličnosti između JavaScripta i Jave, uključujući naziv jezika, sintaksu i
+                                odgovarajuće standardne bibioteke, dva su jezika različita i vrlo se razlikuju po
+                                dizajnu.
+                                Na JavaScript su utjecali programski jezici kao što su Self i Scheme. Format
+                                serializacije JSON, koji se koristi za pohranjivanje podatkovnih struktura u datoteke
+                                ili za
+                                prijenos putem mreže, temelji se na JavaScriptu.
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
 
-    <section id="naslov" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-sm-12">
-                    <div class="section-title">
-                        <h2>Novosti JavaScript</h2>
+
+            <!-- Modal 8 -->
+            <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">JS sintaksa</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center mb-3">
+                                <img src="img/js2.jpg" alt="js 2">
+                            </div>
+                            <p>U JavaScript-u, varijable se mogu definisati koristeći ključne riječi <em>let</em>,
+                                <em>var</em> ili <em>const</em>: <br><br>
+                                <em>let x; // deklariše varijablu i dodjeljuje joj vrijednost "undefined"<br>
+                                    var y = 2; // deklariše varijabli dodjeljuje joj brojčanu vrijednost 2<br>
+                                    const z ="Hello, World!" // deklariše varijablu i dodjeljuje joj string vrijednost
+                                    "Hello, World!";
+                                </em>
+                            </p>
+                            <p>Komentari, kao u gornjem primjeru se stavljaju nakon znakova <em>//</em>.</p>
+                            <p> JavaScript nema ugrađenu funkcionalnost za upis/ispis, nego to omogućava
+                                <em>run-time</em>
+                                okruženje. Primjer:<br><br>
+                                <em>console.log("Hello, World!");</em>
+                            </p>
+                            <p><strong>Primjer jednostavne rekurzivne funkcije:</strong><br><br>
+                                <em>function factorial(n)&#123;<br>
+                                    if(n === 0)&#123;<br>
+                                    return 1;<br>
+                                    &#125;<br>
+                                    return n*factorial(n-1);<br>
+                                    &#125;<br>
+                                    factorial(3); // vraća vrijednost 6</em></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>
 
-    <!-- Sadržaj i slike -->
-    <section id="galerija">
-        <div class="container mb-5">
-            <div class="row align-items-sm-center align-items-start">
-                <div class="col-md-6">
-                    <div class="img-sadrzaj">
-                        <a data-toggle="modal" data-target="#exampleModalCenter5">
-                            <img src="img/js2.png" class="img-fluid" alt="js 1">
+
+            <!-- Modal 11 -->
+            <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Upotreba JavaScript-a u web stranicama
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center mb-3">
+                                <img src="img/js3.png" alt="js 3">
+                            </div>
+                            <p>Od maja 2017, 94.5% od 10 miliona najpopularnijih web stranica koristilo je JavaScript.
+                                Najčešća upotreba JavaScript-a je dodavanje ponašanja na strani klijenta na HTML
+                                stranice, također poznato kao dinamički HTML (DHTML).
+                            </p>
+                            <p>Skripte su ugrađene ili uključene s HTML stranica i međusobno su povezane s modelom
+                                objekta
+                                dokumenta (DOM) stranice.
+                            </p>
+                            <p><strong> Neki jednostavni primjeri upotrebe su: </strong>
+                                <ul class="px-3">
+                                    <li>Učitavanje sadržaja nove stranice ili slanje podataka na poslužitelj putem Ajaxa
+                                        bez
+                                        ponovnog učitavanja stranice (na primjer, društvena mreža može omogućiti
+                                        korisniku
+                                        da objavljuje statuse bez napuštanja stranice).
+                                    </li>
+                                    <li>Animacija elemenata stranica, njihovo blijeđenje i smanjivanje, mijenjanje
+                                        veličine,
+                                        pomicanje itd.
+                                    </li>
+                                    <li>Interaktivni sadržaj, naprimjer igre te audio i video zapisi.
+                                    </li>
+                                    <li>Provjeravanje ulaznih vrijednosti web obrasca da biste bili sigurni da su
+                                        prihvatljive prije slanja na poslužitelj.
+                                    </li>
+                                    <li>Prijenos informacija o navikama čitanja korisnika i aktivnostima pregledavanja
+                                        na
+                                        razne web stranice. Web stranice to često rade za web analitiku, praćenje
+                                        oglasa,
+                                        personalizaciju ili druge svrhe.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 p-0">
+                        <p>copyright &copy; 2019
+                            <span>- ipsuma</span>
+                        </p>
+                        <p>Developed by <span><a href="https://github.com/ajdinkomic"><em>ajdin komić</em></a></span>
+                        </p>
+                        <a href="https://facebook.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://youtube.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 text-right p-0">
+                        <a id="back-to-top" href="#home" class="btn btn-primary smooth-scroll">
+                            <i class="fas fa-angle-up"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="tekst-sadrzaj">
-                        <h3>Uvod u JS</h3>
-                        <p>JavaScript je skriptni programski jezik, koji se izvršava u web pregledniku na strani
-                            korisnika. Napravljen je da bude sličan Javi, zbog lakšeg korištenja, ali nije objektno
-                            orijentisan kao Java, već se temelji na prototipu i tu prestaje svaka povezanost s
-                            programskim jezikom Java.</p>
-                        <div>15.10.2019. 10:28</div>
-                        <div><strong><em>#JAVASCRIPT</em></strong></div>
-
-                    </div>
-
-                </div>
             </div>
-            <div class="row align-items-sm-center align-items-start">
-                <div class="col-md-6">
-                    <div class="img-sadrzaj">
-                        <a data-toggle="modal" data-target="#exampleModalCenter8">
-                            <img src="img/js2.jpg" class="img-fluid" alt="js 2">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="tekst-sadrzaj">
-                        <h3>JS sintaksa</h3>
-                        <p>U JavaScript-u, varijable se mogu definisati koristeći ključne riječi <em>let</em>,
-                            <em>var</em> ili <em>const</em>.<br>
-                            Komentari se navode nakon znakova <em>//</em>.</p>
-                        <div>9.9.2019. 17:08</div>
-                        <div><strong><em>#JAVASCRIPT</em></strong></div>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="row align-items-sm-center align-items-start">
-                <div class="col-md-6">
-                    <div class="img-sadrzaj">
-                        <a data-toggle="modal" data-target="#exampleModalCenter11">
-                            <img src="img/js3.png" class="img-fluid" alt="js 3">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="tekst-sadrzaj">
-                        <h3>Upotreba JavaScript-a u web stranicama</h3>
-                        <p>Od maja 2017, 94.5% od 10 miliona najpopularnijih web stranica koristilo je JavaScript.
-                            Najčešća upotreba JavaScript-a je dodavanje ponašanja na strani klijenta na HTML
-                            stranice, također poznato kao dinamički HTML (DHTML).</p>
-                        <div>10.8.2019. 13:40</div>
-                        <div><strong><em>#JAVASCRIPT</em></strong></div>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Modal 5 -->
-        <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Uvod u JS</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center mb-3">
-                            <img src="img/js2.png" alt="html 1">
-                        </div>
-                        <p>JavaScript je skriptni programski jezik, koji se izvršava u web pregledniku na strani
-                            korisnika. Napravljen je da bude sličan Javi, zbog lakšeg korištenja, ali nije objektno
-                            orijentisan kao Java, već se temelji na prototipu i tu prestaje svaka povezanost s
-                            programskim jezikom Java.</p>
-                        <p>Uz HTML i CSS, JavaScript je jedna od glavnih tehnologija "World Wide Web-a". JavaScript
-                            omogućava interaktivne web stranice i bitan je dio web aplikacija. Velika većina web
-                            stranica koristi ga, a glavni web preglednici imaju namjenski JavaScript mehanizam za
-                            njegovo izvršavanje.
-                        </p>
-                        <p> Iako postoje sličnosti između JavaScripta i Jave, uključujući naziv jezika, sintaksu i
-                            odgovarajuće standardne bibioteke, dva su jezika različita i vrlo se razlikuju po dizajnu.
-                            Na JavaScript su utjecali programski jezici kao što su Self i Scheme. Format
-                            serializacije JSON, koji se koristi za pohranjivanje podatkovnih struktura u datoteke ili za
-                            prijenos putem mreže, temelji se na JavaScriptu.
-
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </footer>
 
 
-        <!-- Modal 8 -->
-        <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">JS sintaksa</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center mb-3">
-                            <img src="img/js2.jpg" alt="js 2">
-                        </div>
-                        <p>U JavaScript-u, varijable se mogu definisati koristeći ključne riječi <em>let</em>,
-                            <em>var</em> ili <em>const</em>: <br><br>
-                            <em>let x; // deklariše varijablu i dodjeljuje joj vrijednost "undefined"<br>
-                                var y = 2; // deklariše varijabli dodjeljuje joj brojčanu vrijednost 2<br>
-                                const z ="Hello, World!" // deklariše varijablu i dodjeljuje joj string vrijednost
-                                "Hello, World!";
-                            </em>
-                        </p>
-                        <p>Komentari, kao u gornjem primjeru se stavljaju nakon znakova <em>//</em>.</p>
-                        <p> JavaScript nema ugrađenu funkcionalnost za upis/ispis, nego to omogućava <em>run-time</em>
-                            okruženje. Primjer:<br><br>
-                            <em>console.log("Hello, World!");</em>
-                        </p>
-                        <p><strong>Primjer jednostavne rekurzivne funkcije:</strong><br><br>
-                            <em>function factorial(n)&#123;<br>
-                                if(n === 0)&#123;<br>
-                                return 1;<br>
-                                &#125;<br>
-                                return n*factorial(n-1);<br>
-                                &#125;<br>
-                                factorial(3); // vraća vrijednost 6</em></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- SKRIPTE -->
 
+        <!-- jQuery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
 
-        <!-- Modal 11 -->
-        <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Upotreba JavaScript-a u web stranicama</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center mb-3">
-                            <img src="img/js3.png" alt="js 3">
-                        </div>
-                        <p>Od maja 2017, 94.5% od 10 miliona najpopularnijih web stranica koristilo je JavaScript.
-                            Najčešća upotreba JavaScript-a je dodavanje ponašanja na strani klijenta na HTML
-                            stranice, također poznato kao dinamički HTML (DHTML).
-                        </p>
-                        <p>Skripte su ugrađene ili uključene s HTML stranica i međusobno su povezane s modelom objekta
-                            dokumenta (DOM) stranice.
-                        </p>
-                        <p><strong> Neki jednostavni primjeri upotrebe su: </strong>
-                            <ul class="px-3">
-                                <li>Učitavanje sadržaja nove stranice ili slanje podataka na poslužitelj putem Ajaxa bez
-                                    ponovnog učitavanja stranice (na primjer, društvena mreža može omogućiti korisniku
-                                    da objavljuje statuse bez napuštanja stranice).
-                                </li>
-                                <li>Animacija elemenata stranica, njihovo blijeđenje i smanjivanje, mijenjanje veličine,
-                                    pomicanje itd.
-                                </li>
-                                <li>Interaktivni sadržaj, naprimjer igre te audio i video zapisi.
-                                </li>
-                                <li>Provjeravanje ulaznih vrijednosti web obrasca da biste bili sigurni da su
-                                    prihvatljive prije slanja na poslužitelj.
-                                </li>
-                                <li>Prijenos informacija o navikama čitanja korisnika i aktivnostima pregledavanja na
-                                    razne web stranice. Web stranice to često rade za web analitiku, praćenje oglasa,
-                                    personalizaciju ili druge svrhe.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Bootstrap 4 JS -->
+        <script src="js/bootstrap.min.js"></script>
 
+        <!-- Owl JS -->
+        <script src="js/owl.carousel.min.js"></script>
 
-    </section>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
 
-    <!-- FOOTER -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-8 p-0">
-                    <p>copyright &copy; 2019
-                        <span>- ipsuma</span>
-                    </p>
-                    <p>Developed by <span><a href="https://github.com/ajdinkomic"><em>ajdin komić</em></a></span></p>
-                    <a href="https://facebook.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://youtube.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="col-4 text-right p-0">
-                    <a id="back-to-top" href="#home" class="btn btn-primary smooth-scroll">
-                        <i class="fas fa-angle-up"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
 
+        <script>
 
-    <!-- SKRIPTE -->
+        </script>
 
-    <!-- jQuery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-
-    <!-- Bootstrap 4 JS -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Owl JS -->
-    <script src="js/owl.carousel.min.js"></script>
-
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
-
-    <script>
-
-    </script>
+    </div>
 
 </body>
 

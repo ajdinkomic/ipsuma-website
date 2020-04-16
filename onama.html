@@ -54,408 +54,419 @@
 
 <body>
 
-    <!-- HEADER -->
-    <header id="home" class="header">
-        <!-- NAVIGACIJA -->
-        <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="overflow-hidden-wrapper">
+
+        <!-- HEADER -->
+        <header id="home" class="header">
+            <!-- NAVIGACIJA -->
+            <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo_ipsuma.png" alt="logo" style="width: 50%;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Početna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="onama.html">O nama</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="novosti.html" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Novosti
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="novosti.html">Sve novosti</a>
+                                    <a class="dropdown-item" href="novostihtml.html">HTML</a>
+                                    <a class="dropdown-item" href="novosticss.html">CSS</a>
+                                    <a class="dropdown-item" href="novostijs.html">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galerija.html">galerija</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- LOGO, NASLOV, OPIS I DUGMAD -->
+            <div class="header-overlay">
+                <div class="container header-container">
+
+                    <div class="row">
+                        <div class="col-lg-12 header-text text-center">
+                            <h1>Softverska rješenja za kojima tragate</h1>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="naslov" class="text-center">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo_ipsuma.png" alt="logo" style="width: 50%;">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Početna</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="onama.html">O nama</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="novosti.html" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Novosti
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="novosti.html">Sve novosti</a>
-                                <a class="dropdown-item" href="novostihtml.html">HTML</a>
-                                <a class="dropdown-item" href="novosticss.html">CSS</a>
-                                <a class="dropdown-item" href="novostijs.html">JavaScript</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galerija.html">galerija</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- LOGO, NASLOV, OPIS I DUGMAD -->
-        <div class="header-overlay">
-            <div class="container header-container">
-
                 <div class="row">
-                    <div class="col-lg-12 header-text text-center">
-                        <h1>Softverska rješenja za kojima tragate</h1>
-                        <p>HTML, CSS, JavaScript</p>
+                    <div class="col-lg-10 offset-lg-1 col-sm-12">
+                        <div class="section-title">
+                            <h2>O nama</h2>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- O nama -->
+        <section id="onama">
+            <div class="container mt-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="img/pozadina1.jpg" class="img-fluid mb-4" alt="Tim ljudi koji se drže za ruke">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="onama-tekst">
+                            <p>Softverska kompanija Ipsuma osnovana je 2018 godine u Bihaću, Bosna i Hercegovina i za
+                                kratko
+                                vrijeme se razvila u jednu od vodećih IT firmi u Bosni i Hercegovini.</p>
+                            <p>Kompanija nudi usluge iz područja web dizajna, web development-a, razvoja CMS-a, CRM-a,
+                                SEO
+                                optimizacije,
+                                održavanja i hostovanja web aplikacija.</p>
+                            <p>Tim Ipsuma stručnjaka je sačinjen od vrhunskih web dizajnera, web developera, sistem
+                                analitičara te
+                                projekt menadžera sa velikim iskustvom i znanjem.</p>
+                            <p>Pored navedenih usluga, Ipsuma softverska kompanija nudi i prakse za studente iz IT
+                                područja
+                                kao
+                                i za one koji žele biti dio IT svijeta.</p>
+                            <p>Jednom godišnje tim organizuje i IT kamp, gdje se mogu prijaviti studenti ili radnici iz
+                                drugih sektora koji
+                                žele steći, unaprijediti ili usavršiti programerske vještine.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </section>
 
-    <section id="naslov" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-sm-12">
-                    <div class="section-title">
-                        <h2>O nama</h2>
+        <!--rezultati-->
+        <section id="rezultati">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-sm-12">
+                        <div class="section-title">
+                            <h2>Naši rezultati</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>
 
-    <!-- O nama -->
-    <section id="onama">
-        <div class="container mt-4">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <img src="img/pozadina1.jpg" class="img-fluid mb-4" alt="Tim ljudi koji se drže za ruke">
-                </div>
-                <div class="col-lg-6">
-                    <div class="onama-tekst">
-                        <p>Softverska kompanija Ipsuma osnovana je 2018 godine u Bihaću, Bosna i Hercegovina i za kratko
-                            vrijeme se razvila u jednu od vodećih IT firmi u Bosni i Hercegovini.</p>
-                        <p>Kompanija nudi usluge iz područja web dizajna, web development-a, razvoja CMS-a, CRM-a, SEO
-                            optimizacije,
-                            održavanja i hostovanja web aplikacija.</p>
-                        <p>Tim Ipsuma stručnjaka je sačinjen od vrhunskih web dizajnera, web developera, sistem
-                            analitičara te
-                            projekt menadžera sa velikim iskustvom i znanjem.</p>
-                        <p>Pored navedenih usluga, Ipsuma softverska kompanija nudi i prakse za studente iz IT područja
-                            kao
-                            i za one koji žele biti dio IT svijeta.</p>
-                        <p>Jednom godišnje tim organizuje i IT kamp, gdje se mogu prijaviti studenti ili radnici iz
-                            drugih sektora koji
-                            žele steći, unaprijediti ili usavršiti programerske vještine.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--rezultati-->
-    <section id="rezultati">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-sm-12">
-                    <div class="section-title">
-                        <h2>Naši rezultati</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- brojac -->
-        <div id="brojac">
-            <div class="brojac-overlay">
-                <div class="container-fluid">
-                    <div class="row wow bounceInLeft text-center">
-                        <div class="col-lg-3">
-                            <div class="brojac-content">
-                                <div class="brojac-icon">
-                                    <i class="fas fa-cloud-download-alt"></i>
-                                </div>
-                                <div class="brojac-text">
-                                    <strong>
-                                        <span class="brojac-num">1588</span>+</strong>
-                                    <p>preuzimanja</p>
+            <!-- brojac -->
+            <div id="brojac">
+                <div class="brojac-overlay">
+                    <div class="container-fluid">
+                        <div class="row wow bounceInLeft text-center">
+                            <div class="col-lg-3">
+                                <div class="brojac-content">
+                                    <div class="brojac-icon">
+                                        <i class="fas fa-cloud-download-alt"></i>
+                                    </div>
+                                    <div class="brojac-text">
+                                        <strong>
+                                            <span class="brojac-num">1588</span>+</strong>
+                                        <p>preuzimanja</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="brojac-content">
-                                <div class="brojac-icon">
-                                    <i class="fas fa-gift"></i>
-                                </div>
-                                <div class="brojac-text">
-                                    <strong>
-                                        <span class="brojac-num">3500</span>+</strong>
-                                    <p>nagrada</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="brojac-content">
-                                <div class="brojac-icon">
-                                    <i class="far fa-heart"></i>
-                                </div>
-                                <div class="brojac-text">
-                                    <strong>
-                                        <span class="brojac-num">199</span>+</strong>
-                                    <p>lajkova</p>
+                            <div class="col-lg-3">
+                                <div class="brojac-content">
+                                    <div class="brojac-icon">
+                                        <i class="fas fa-gift"></i>
+                                    </div>
+                                    <div class="brojac-text">
+                                        <strong>
+                                            <span class="brojac-num">3500</span>+</strong>
+                                        <p>nagrada</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="brojac-content">
-                                <div class="brojac-icon">
-                                    <i class="fas fa-check"></i>
+                            <div class="col-lg-3">
+                                <div class="brojac-content">
+                                    <div class="brojac-icon">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="brojac-text">
+                                        <strong>
+                                            <span class="brojac-num">199</span>+</strong>
+                                        <p>lajkova</p>
+                                    </div>
                                 </div>
-                                <div class="brojac-text">
-                                    <strong>
-                                        <span class="brojac-num">1066</span>+</strong>
-                                    <p>preporučeno</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="brojac-content">
+                                    <div class="brojac-icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="brojac-text">
+                                        <strong>
+                                            <span class="brojac-num">1066</span>+</strong>
+                                        <p>preporučeno</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- tim -->
-    <section id="tim">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="section-title">
-                        <h2>Naš tim</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mb-5">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div id="slider-tim" class="wow zoomIn owl-carousel owl-theme">
-
-                        <div class="item text-center">
-                            <div class="img-wrapper-tim">
-                                <a data-toggle="modal" data-target="#exampleModalCenter">
-                                    <img src="img/team-1.jpg" alt="Direktor John Doe slika.">
-                                </a>
-                            </div>
-                            <div class="tim-text">
-                                <div class="tim-heading">
-                                    <h2>John Doe</h2>
-                                    <h5><em>Direktor</em></h5>
-                                </div>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-secondary px-4" data-toggle="modal"
-                                    data-target="#exampleModalCenter">
-                                    Više
-                                </button>
-                            </div>
-                        </div>
-                        <div class="item text-center">
-                            <div class="img-wrapper-tim">
-                                <a data-toggle="modal" data-target="#exampleModalCenter2">
-                                    <img src="img/team-2.jpg" alt="Softverski inžinjer Jane Doe slika.">
-                                </a>
-                            </div>
-                            <div class="tim-text">
-                                <div class="tim-heading">
-                                    <h2>Jane Doe</h2>
-                                    <h5><em>Softverski inžinjer</em></h5>
-                                </div>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-secondary px-4" data-toggle="modal"
-                                    data-target="#exampleModalCenter2">
-                                    Više
-                                </button>
-                            </div>
-                        </div>
-                        <div class="item text-center">
-                            <div class="img-wrapper-tim">
-                                <a data-toggle="modal" data-target="#exampleModalCenter3">
-                                    <img src="img/team-3.jpg" alt="Softverski inžinjer Paul Smith slika.">
-                                </a>
-                            </div>
-                            <div class="tim-text">
-                                <div class="tim-heading">
-                                    <h2>Paul Smith</h2>
-                                    <h5><em>Softverski inžinjer</em></h5>
-                                </div>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-secondary px-4" data-toggle="modal"
-                                    data-target="#exampleModalCenter3">
-                                    Više
-                                </button>
-                            </div>
+        <!-- tim -->
+        <section id="tim">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="section-title">
+                            <h2>Naš tim</h2>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Modal 1 -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">John Doe - Biografija</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/team-1.jpg" alt="Direktor John Doe slika.">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="slider-tim" class="wow zoomIn owl-carousel owl-theme">
+
+                            <div class="item text-center">
+                                <div class="img-wrapper-tim">
+                                    <a data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="img/team-1.jpg" alt="Direktor John Doe slika.">
+                                    </a>
+                                </div>
+                                <div class="tim-text">
+                                    <div class="tim-heading">
+                                        <h2>John Doe</h2>
+                                        <h5><em>Direktor</em></h5>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-secondary px-4" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Više
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item text-center">
+                                <div class="img-wrapper-tim">
+                                    <a data-toggle="modal" data-target="#exampleModalCenter2">
+                                        <img src="img/team-2.jpg" alt="Softverski inžinjer Jane Doe slika.">
+                                    </a>
+                                </div>
+                                <div class="tim-text">
+                                    <div class="tim-heading">
+                                        <h2>Jane Doe</h2>
+                                        <h5><em>Softverski inžinjer</em></h5>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-secondary px-4" data-toggle="modal"
+                                        data-target="#exampleModalCenter2">
+                                        Više
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item text-center">
+                                <div class="img-wrapper-tim">
+                                    <a data-toggle="modal" data-target="#exampleModalCenter3">
+                                        <img src="img/team-3.jpg" alt="Softverski inžinjer Paul Smith slika.">
+                                    </a>
+                                </div>
+                                <div class="tim-text">
+                                    <div class="tim-heading">
+                                        <h2>Paul Smith</h2>
+                                        <h5><em>Softverski inžinjer</em></h5>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-secondary px-4" data-toggle="modal"
+                                        data-target="#exampleModalCenter3">
+                                        Više
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p>John Doe rođen je 01.01.1997. godine u New York-u, gdje je završio osnovnu i srednju
-                        školu. U srednjoj školi pokazao je veliki interes za informatiku,
-                        te nastavlja svoje školovanje u istom smjeru.</p>
-                    <p>Nakon srednje škole, 2016. godine upisuje Informatički fakultet u New York-u, gdje dobija priliku
-                        za sticanje i
-                        usavršavanje znanja.</p>
-                    <p>Nakon studija, osniva firmu Ipsuma.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- Modal 2 -->
-    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Jane Doe - Biografija</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/team-2.jpg" alt="Softverski inžinjer Jane Doe slika.">
+        <!-- Modal 1 -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">John Doe - Biografija</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <p>Jane Doe rođena je 01.01.1997. godine u New York-u, gdje je završila osnovnu i srednju
-                        školu. U srednjoj školi pokazala je veliki interes za informatiku,
-                        te nastavlja svoje školovanje u istom smjeru.</p>
-                    <p>Nakon srednje škole, 2016. godine upisuje Informatički fakultet u New York-u, gdje dobija priliku
-                        za sticanje i
-                        usavršavanje znanja.</p>
-                    <p>Nakon studija, zapošljava se u firmi Ipsuma.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Paul Smith - Biografija</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/team-3.jpg" alt="Softverski inžinjer Paul Smith slika.">
+                    <div class="modal-body">
+                        <div class="text-center mb-3">
+                            <img src="img/team-1.jpg" alt="Direktor John Doe slika.">
+                        </div>
+                        <p>John Doe rođen je 01.01.1997. godine u New York-u, gdje je završio osnovnu i srednju
+                            školu. U srednjoj školi pokazao je veliki interes za informatiku,
+                            te nastavlja svoje školovanje u istom smjeru.</p>
+                        <p>Nakon srednje škole, 2016. godine upisuje Informatički fakultet u New York-u, gdje dobija
+                            priliku
+                            za sticanje i
+                            usavršavanje znanja.</p>
+                        <p>Nakon studija, osniva firmu Ipsuma.</p>
                     </div>
-                    <p>Paul Smith rođen je 01.01.1997. godine u New York-u, gdje je završio osnovnu i srednju
-                        školu. U srednjoj školi pokazao je veliki interes za informatiku,
-                        te nastavlja svoje školovanje u istom smjeru.</p>
-                    <p>Nakon srednje škole, 2016. godine upisuje Informatički fakultet u New York-u, gdje dobija priliku
-                        za sticanje i
-                        usavršavanje znanja.</p>
-                    <p>Nakon studija, zapošljava se u firmi Ipsuma.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- FOOTER -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-8 p-0">
-                    <p>copyright &copy; 2019
-                        <span>- ipsuma</span>
-                    </p>
-                    <p>Developed by <span><a href="https://github.com/ajdinkomic"><em>ajdin komić</em></a></span></p>
-                    <a href="https://facebook.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://youtube.com" class="btn btn-outline-secondary">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="col-4 text-right p-0">
-                    <a id="back-to-top" href="#home" class="btn btn-primary smooth-scroll">
-                        <i class="fas fa-angle-up"></i>
-                    </a>
+        <!-- Modal 2 -->
+        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Jane Doe - Biografija</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center mb-3">
+                            <img src="img/team-2.jpg" alt="Softverski inžinjer Jane Doe slika.">
+                        </div>
+                        <p>Jane Doe rođena je 01.01.1997. godine u New York-u, gdje je završila osnovnu i srednju
+                            školu. U srednjoj školi pokazala je veliki interes za informatiku,
+                            te nastavlja svoje školovanje u istom smjeru.</p>
+                        <p>Nakon srednje škole, 2016. godine upisuje Informatički fakultet u New York-u, gdje dobija
+                            priliku
+                            za sticanje i
+                            usavršavanje znanja.</p>
+                        <p>Nakon studija, zapošljava se u firmi Ipsuma.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Paul Smith - Biografija</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center mb-3">
+                            <img src="img/team-3.jpg" alt="Softverski inžinjer Paul Smith slika.">
+                        </div>
+                        <p>Paul Smith rođen je 01.01.1997. godine u New York-u, gdje je završio osnovnu i srednju
+                            školu. U srednjoj školi pokazao je veliki interes za informatiku,
+                            te nastavlja svoje školovanje u istom smjeru.</p>
+                        <p>Nakon srednje škole, 2016. godine upisuje Informatički fakultet u New York-u, gdje dobija
+                            priliku
+                            za sticanje i
+                            usavršavanje znanja.</p>
+                        <p>Nakon studija, zapošljava se u firmi Ipsuma.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 p-0">
+                        <p>copyright &copy; 2019
+                            <span>- ipsuma</span>
+                        </p>
+                        <p>Developed by <span><a href="https://github.com/ajdinkomic"><em>ajdin komić</em></a></span>
+                        </p>
+                        <a href="https://facebook.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://youtube.com" class="btn btn-outline-secondary">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 text-right p-0">
+                        <a id="back-to-top" href="#home" class="btn btn-primary smooth-scroll">
+                            <i class="fas fa-angle-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
-    <!-- SKRIPTE -->
+        <!-- SKRIPTE -->
 
-    <!-- jQuery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
 
-    <!-- Bootstrap 4 JS -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap 4 JS -->
+        <script src="js/bootstrap.min.js"></script>
 
-    <!-- WOW JS -->
-    <script src="js/wow.min.js"></script>
+        <!-- WOW JS -->
+        <script src="js/wow.min.js"></script>
 
-    <!-- Owl JS -->
-    <script src="js/owl.carousel.min.js"></script>
+        <!-- Owl JS -->
+        <script src="js/owl.carousel.min.js"></script>
 
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
 
-    <!-- jQuery Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
+        <!-- jQuery Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
 
-    <!-- jQuery brojac -->
-    <script src="js/jquery.counterup.min.js"></script>
+        <!-- jQuery brojac -->
+        <script src="js/jquery.counterup.min.js"></script>
 
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
 
-    <script>
-        // WOW
-        $(function () {
-            new WOW().init();
-        });
-        // BROJAČ
-        $(function () {
-            $(".brojac-num").counterUp({
-                delay: 10,
-                time: 1700,
+        <script>
+            // WOW
+            $(function () {
+                new WOW().init();
             });
-        });
-    </script>
+            // BROJAČ
+            $(function () {
+                $(".brojac-num").counterUp({
+                    delay: 10,
+                    time: 1700,
+                });
+            });
+        </script>
+
+    </div>
 
 </body>
 
